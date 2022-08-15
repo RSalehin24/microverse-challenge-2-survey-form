@@ -12,11 +12,15 @@
     <p id="description">This is the description</p>
     <form id="survey-form" action="">
       <label for="name" id="name-label">Name</label>
-      <input type="text" id="name" value="Reyan" required>
+      <input type="text" id="name" value="Reyan" placeholder="Name" required>
       <label for="email" id="email-label">Email</label>
-      <input type="email" id="email" required>
-      <label for="number" id="number-label">Number</label>
-      <input type="number" id="number" min=90 max= 110>
+      <input type="email" id="email" placeholder="Email" required>
+      <label for="number" id="number-label">Number</lab el>
+      <input type="number" id="number" min=90 max= 110 placeholder="Number">
+      <select name="cars" id="dropdown">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+      </select>
     </form>
     <script  src="js/index.js"></script>
   </body>
